@@ -89,7 +89,6 @@ tig -v
 
 如果是第一次使用本工具，在启动时会提示输入您的微步 API 和 Fofa API
 
-![](./img/tig2.png)
 
 查看自己微步 API  Key 的地址为：[https://x.threatbook.cn/nodev4/vb4/myAPI](https://x.threatbook.cn/nodev4/vb4/myAPI)，免费账户有每天 50 次的限额。
 
@@ -97,17 +96,21 @@ tig -v
 
 如果之前使用过历史版本，程序会自动根据原来的配置文件生成当前的配置文件，无需手动更改。
 
- ![](./img/tig3.png)
 
 ## 示例
 
 例如这里要获取某个 IP 的信息，直接使用 -i 命令即可，结果会默认保存到 output 文件夹内，或者 -o 指定导出文件位置。
 
-![](./img/tig4.png)
+```bash
+ python3 runner.py -i IP -o fileURL
+ python3 runner.py -i IP -o ./output
+```
 
 或者直接指定一个 IP 列表，结果导出到 result.xlsx 文件里。
 
-![](./img/tig5.png)
+```bash
+ python3 runner.py -f IP.txt -o result.xlsx
+```
 
 导出表格文件信息如下
 
