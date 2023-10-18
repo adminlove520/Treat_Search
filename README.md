@@ -6,7 +6,7 @@
 
 ## 解决问题
 
-TIG `Threat Intelligence Gathering` ，即威胁情报收集。
+ `Threat Intelligence Gathering` ，即威胁情报收集。
 
 在蓝队进行溯源工作时，通常有以下场景：
 
@@ -23,12 +23,6 @@ TIG `Threat Intelligence Gathering` ，即威胁情报收集。
 
 
 ## 工具介绍
-
-**工具代码完全开源，放心使用，XDM 有问题可以在 GitHub 提 issue 或者关注底部公众号加入团队官方交流群~**
-
-**我们也会根据大家反馈的内容持续完善！**
-
-
 
 
 当前该工具获取 IP 的信息有以下几个角度：
