@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # _*_ coding:utf-8 _*_
-# Team: WgpSec
-# Team Github : https://github.com/wgpsec
-# Author : TeamsSix
-# Author blog : https://www.teamssix.com
+# Team: 东方隐侠
+# Team Github : https://github.com/adminlove520
+# Author : Anonymous
 
 import re
 import os
